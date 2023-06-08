@@ -11,13 +11,13 @@ class TaskService {
     static async getTaskById(id){
         // ваша реализация получения одной тудушки
     }   
-    static async createNewTask(task){
+    static async createTask(task){
         // ваша реализация создания новой тудушки
     }
-    static async updateNewTask(id, task){
+    static async updateTask(id, task){
         // ваша реализация обновления существующей тудушки по ID
     }
-    static async deleteNewTask(id){
+    static async deleteTask(id){
         // ваша реализация удаления существующей тудушки по ID
     }
 }
