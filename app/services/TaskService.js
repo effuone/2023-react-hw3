@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const TODO_API = 'https://api.todoist.com/rest/v1/tasks'
-const TODOIST_TOKEN = process.env.TODOIST_TOKEN
+const TODOIST_TOKEN = process.env.NEXT_PUBLIC_TODOIST_TOKEN
 const PROJECT_ID = 'your project id'
 
 class TaskService {
