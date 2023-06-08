@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const TODO_API = 'https://api.todoist.com/rest/v1/tasks'
+const TODO_API = 'https://todoist-hw3.herokuapp.com/api/'
 const TODOIST_TOKEN = process.env.NEXT_PUBLIC_TODOIST_TOKEN
 const PROJECT_ID = 'your project id'
 
